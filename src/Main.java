@@ -7,6 +7,7 @@ public class Main {
     public static void main(String[] args) {
  /*
  ЗАПУСК
+
 java -javaagent:agentMemoryCounter.jar -jar main.jar
  */
         printObjectSize(new Object());
